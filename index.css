@@ -367,3 +367,132 @@ button {
   box-sizing: border-box;
   padding-top: 8px;
 }
+.loadmore {
+  width: 131px;
+height: 48px;
+opacity: 1;
+border-radius: 8px;
+border: solid  1px;
+gap: 10px;
+color: #1E4C2F;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: 600;
+font-style: Semibold;
+font-size: 14px;
+line-height: 140%;
+letter-spacing: -0.2px;
+text-align: center;
+}
+.loadmore-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 32px;
+  box-sizing: border-box;
+}
+.mid2-container {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-top: 70px;
+  padding-left: 34px;
+  padding-right: 34px;
+}
+.mid2 {
+  width: 100%;
+  height: 444px;
+  background-color: #FCECE1;
+  border-radius: 18px;
+  box-sizing: border-box;
+}
+.mid2 .main-text {
+
+font-weight: 600;
+padding-top: 32px;
+font-size: 18px;
+
+line-height: 140%;
+letter-spacing: -0.2px;
+padding-left: 24px;
+box-sizing: border-box;
+}
+.mid2 .sub-text {
+padding-left: 24px;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+color: #818B9C;
+line-height: 160%;
+letter-spacing: 0px;
+padding-right: 24px;
+box-sizing: border-box;
+}
+.mid2-buyv {
+  display: flex;
+  gap: 13px;
+  padding-left: 24px;
+  padding-right: 24px;
+  box-sizing: border-box;
+  padding-top: 32px;
+}
+.mid2-img {
+  width: 157px;
+  height: 176px;
+  box-sizing: border-box;
+  padding-top: 32px;
+  padding-left: 24px;
+}
+.mid3-container {
+display: flex;
+flex-direction: column;
+gap: 24px;
+box-sizing: border-box;
+align-items: center;
+padding-top: 34px;
+}
+.mid3-box {
+  width: 337px;
+  height: 318px;
+  flex-shrink: 0;
+}
+.box-img {
+  width: 337px;
+  height: 180px;
+  border-radius: 8px;
+}
+.mid3-box .date {
+font-weight: 400;
+font-size: 14px;
+line-height: 160%;
+letter-spacing: 0px;
+color: #1E4C2F;
+margin: 0;
+box-sizing: border-box;
+padding-top: 16px;
+}
+.mid3-box .main-text {
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+letter-spacing: -0.2px;
+margin: 0;
+box-sizing: border-box;
+padding-top: 8px
+}
+.mid3-box .sub-text {
+font-weight: 400;
+color: #818B9C;
+font-size: 14px;
+line-height: 160%;
+letter-spacing: 0px;
+margin: 0;
+box-sizing: border-box;
+padding-top: 4px
+}
+.last-container {
+  width: 100%;
+  height: 774px;
+  background-color: #F7F7F7;
+}
